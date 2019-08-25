@@ -22,5 +22,5 @@ class Dog
   
 end
 
-fido = Dog.new("Fido", "Pug")
+fido = Dog.new("")
 puts fido.instance_variable_get(:@breed)
