@@ -23,3 +23,4 @@ class Dog
 end
 
 fido = Dog.new("Fido", "Pug")
+puts fido.instance_variable_get(:@name)
